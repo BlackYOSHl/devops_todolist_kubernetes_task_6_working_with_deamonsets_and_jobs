@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: CronJob
 metadata:
   name: todoapp-health-check
-  namespace: todoapp
+  namespace: mateapp
 spec:
   schedule: "*/4 * * * *"  # Every 4 minutes
   jobTemplate:
